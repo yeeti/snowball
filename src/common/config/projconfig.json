@@ -1,0 +1,10 @@
+{
+  "init": [
+    { "users": "true" }
+  ],
+  "users": [
+    { "login": "false"},
+    { "basicInformation": "fname,lname,pnum,address,email" }
+    { "medicalQuestionnaire": "true"}
+  ]
+}

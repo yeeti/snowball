@@ -1,0 +1,46 @@
+{
+  "name": "snowball",
+  "version": "1.0.0",
+  "description": "A fun project built with Vue.js & Electron project",
+  "main": "./src/main/index.js",
+  "scripts": {
+    "start": "electron-webpack dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-webpack && electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeeti/snowball.git"
+  },
+  "keywords": [
+    "electron",
+    "vue.js",
+    "desktop",
+    "dev",
+    "webstack",
+    "web",
+    "native"
+  ],
+  "author": "yeeti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeeti/snowball/issues"
+  },
+  "homepage": "https://github.com/yeeti/snowball#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "electron-webpack": "^2.1.2",
+    "node-emoji": "^1.8.1",
+    "webpack": "^4.12.0"
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^2.0.2",
+    "electron-builder": "^20.16.4",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.4",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.16",
+    "vuex": "^3.0.1"
+  }
+}

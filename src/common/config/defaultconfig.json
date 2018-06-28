@@ -1,0 +1,12 @@
+{
+  "projectName": "spark.io",
+  "defaultLang": "fr",
+  "fallbackLang": "en",
+  "logoURL": "http://static1.squarespace.com/static/56421346e4b0d582d7541661/t/564486bbe4b00ca829e0ec5c/1524569222703/",
+  "theme": {
+    "primaryColor": "#3b3b3b",
+    "secondaryColor": "#1bbd80",
+    "accentColor": "#f36f34"
+  },
+  "defaultCountryCode": "+1"
+}
