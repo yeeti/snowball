@@ -42,5 +42,11 @@
     "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.16",
     "vuex": "^3.0.1"
+  },
+  "electronWebpack": {
+    "main": {
+    "sourceDirectory": "src/main",
+    "webpackConfig": "webpack.config.js"
+    }
   }
 }

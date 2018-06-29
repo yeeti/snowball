@@ -13,7 +13,7 @@ export default {
   data() {
     return {
       config: {},
-      name: 'bewgs.io'
+      name: 'yeeti.io'
     }
   }
 }
@@ -21,7 +21,7 @@ export default {
 
 <style scoped lang="css">
 .side-menu-container {
-  height: 500px;
+  height: 100%;
   width: 200px;
   background-color: rgb(59, 59, 59);
 }

@@ -1,7 +1,11 @@
-class Client {
+'use strict';
+
+module.exports = class Client {
   // fname, lname, dob
   // address, telephone
   // medical questionnaire
+  // exercises[]
+  // appointments
 
   constructor() {
     this.firstName = null
@@ -25,4 +29,4 @@ class Client {
   }
 
 
-}
+};

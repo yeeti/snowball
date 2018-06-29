@@ -4,9 +4,8 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
   resolve: {
-    ;root: path.resolve(__dirname),
     alias: {
-      views: 'src/renderer/views'
+      Views: './views'
     }
   },
   module: {
